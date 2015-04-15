@@ -1,0 +1,23 @@
+b{
+  products: [
+    {
+      name: "Guide to fast AngularJS apps",
+      price: 10.35,
+      description: "A potentially really long description",
+      specifications: [
+        {
+          name: "weight",
+          value: "3"
+        }
+      ],
+      reviews: [
+        {
+          userName: "Eric Stolten"
+          rating: 5,
+          review: "Really long review"
+        }
+      ]
+
+    }
+  ]
+}
