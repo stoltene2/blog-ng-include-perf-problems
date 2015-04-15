@@ -1,4 +1,4 @@
-b{
+{
   products: [
     {
       name: "Guide to fast AngularJS apps",
@@ -12,7 +12,7 @@ b{
       ],
       reviews: [
         {
-          userName: "Eric Stolten"
+          userName: "Eric Stolten",
           rating: 5,
           review: "Really long review"
         }
