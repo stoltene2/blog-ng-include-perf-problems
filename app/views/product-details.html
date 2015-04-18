@@ -2,19 +2,19 @@
 
     <div class="row description">
         <div class="col-sm-8">
-            <p>{{product.description}}</p>
+            <p>{{::product.description}}</p>
         </div>
         <div class="col-sm-4">
-            <button type="button" class="btn btn-primary">Buy Now</button> ${{product.price}}
+            <button type="button" class="btn btn-primary">Buy Now</button> ${{::product.price}}
         </div>
 
     </div>
 
     <div class="col-sm-12">
-        <ng-include src="'views/product-specs.html'"></ng-include>
+        <product-specs></product-specs>
     </div>
 
     <div class="col-sm-12">
-        <ng-include src="'views/product-reviews.html'"></ng-include>
+        <product-reviews></product-reviews>
     </div>
 </div>
