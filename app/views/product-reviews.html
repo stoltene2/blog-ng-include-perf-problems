@@ -1,0 +1,12 @@
+<div class="row">
+    <h4>Reviews</h4>
+    <div class="description" ng-repeat="review in product.reviews">
+        <div class="row">
+            <div class="col-sm-8"><strong>Author</strong>: {{review.userName}}</div>
+            <div class="col-sm-4"><strong>Rating</strong>: {{review.rating}}</div>
+        </div>
+        <div class="row review-body">
+            <p class="col-sm-8">{{review.review}}</p>
+        </div>
+    </div>
+</div>

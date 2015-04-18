@@ -1,24 +1,7 @@
-<button ng-click="toggleDetails()">Show Details</button>
+<input type="text" ng-model="form.totalProducts" />
+<button ng-click="generateProducts()">Generate Products</button>
+
 
 <div ng-repeat="product in products track by $index" class="row">
-    <div class="row">
-        <div class="row bg-primary">
-            {{product.name}} -- {{product.price}}
-        </div>
-        <div ng-if="showDetails" class="row">
-            {{product.description}}
-            <div class="row">
-                <ul ng-repeat="spec in product.specifications">
-                    <li>{{spec.name}} -- {{spec.value}}</li>
-                </ul>
-            </div>
-
-            <div class="row">
-                <ul ng-repeat="review in product.reviews">
-                    <div class="row">{{review.userName}} - {{review.rating}}</div>
-                    <div class="row">{{review.review}}</div>
-                </ul>
-            </div>
-        </div>
-    </div>
+    <ng-include src="'views/product.html'"></ng-include>
 </div>

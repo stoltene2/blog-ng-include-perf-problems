@@ -81,3 +81,25 @@ body {
     border-bottom: 0;
   }
 }
+
+.bs-callout {
+    padding: 20px;
+    margin: 4px 0;
+    border: 1px solid #eee;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-radius: 3px;
+}
+
+.title {
+    cursor: pointer;
+}
+
+.review-body {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.description {
+    padding-left: 15px;
+}
